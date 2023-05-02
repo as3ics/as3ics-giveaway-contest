@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    /* todo: uncomment after transition to TS */
+    // "noFallthroughCasesInSwitch": true,
+    // "noImplicitOverride": true,
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    /* Modules */
+    "baseUrl": ".",
+    "module": "ES2015",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "types": [],
+    /* Emit */
+    "declaration": true,
+    "ignoreDeprecations": "5.0",
+    "inlineSourceMap": true,
+    "outDir": "dist",
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": true,
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    /* Language and Environment */
+    "target": "ES6",
+    "lib": ["es2018", "DOM"]
+  }
+}
