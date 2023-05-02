@@ -34,7 +34,7 @@ function random() {
 
 function rand(min, max) {
   // min and max included
-  return Math.floor(random() * (max - min + 1) + min);
+  return Math.floor(`random() * (max - min + 1) + min);
 }
 
 const print = (str) => {
